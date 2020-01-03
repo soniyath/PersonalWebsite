@@ -2,7 +2,7 @@
 To make an artistic piece by myself This Website is one of the biggest project I am working on after gettting my Diploma as a Software Engineer. I wanted to work on something enormous by myself for some time after I finish my college and this is the result of it. Making myself aware of whole Development Cycle and letting myself and my resume assure that I am flexible working in any part of the Website Development Life Cycle. 
 
 _____________________________________________________________________________________________________________________________________
-This Files are just for reference purposes. Please do not commit breach of any time. All right reserved under the name of Yatharth
+These Files are just for reference purposes. Please do not commit breach of any time. All right reserved under the name of Yatharth
 Alpeshkumar Soni.                                                                                                                  
 _____________________________________________________________________________________________________________________________________
 
