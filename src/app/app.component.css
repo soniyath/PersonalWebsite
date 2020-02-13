@@ -1,0 +1,214 @@
+.menuItems {
+    flex: 1 1 auto;
+    font-family: oxygen;
+    color: whitesmoke;
+    font-size: 1.0em;
+    transition: 0.7 all;
+    overflow: hidden;
+    letter-spacing: 0.4em;
+}
+
+.menuItems:hover {
+    content: '';
+    text-decoration-line: underline;
+}
+
+
+/* Menu Items screen Adjust */
+
+@media screen and (max-width: 1204px) {
+    .menuItems {
+        flex: 1 1 auto;
+        font-family: oxygen;
+        color: whitesmoke;
+        font-size: 1.0em;
+        transition: 0.7 all;
+        overflow: hidden;
+        letter-spacing: 0.4em;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .menuItems {
+        flex: 1 1 auto;
+        font-family: oxygen;
+        color: whitesmoke;
+        transition: 0.7 all;
+        overflow: hidden;
+        font-size: 8px;
+    }
+}
+
+.menuBar {
+    background-color: transparent;
+    align-items: center;
+    text-align: center;
+}
+
+.menuBar:hover {
+    transition-duration: 1500ms;
+    background: #5b8c85;
+}
+
+.headingDiv {
+    align-self: center;
+    text-align: justify;
+    padding-left: 15%;
+    padding-right: 15%;
+    max-height: max-content;
+    text-size-adjust: inherit;
+}
+
+
+/* For main Heading on the Screen */
+
+@media screen and (max-width: 1204px) {
+    .headingText {
+        color: whitesmoke;
+        text-align: justify;
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .headingText {
+        color: whitesmoke;
+        text-align: center;
+        font-size: 40px;
+    }
+}
+
+
+/* Project 1 Heading text : ID */
+
+#medicalTitle {
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.divImg {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: auto;
+    height: max-content;
+}
+
+#Img1 {
+    background-image: url("src/assets/images/HomePage1.jpg");
+}
+
+#Img2 {
+    background-image: url("../assets/images/HomePage2.jpg");
+}
+
+#Img3 {
+    background-image: url("../assets/images/HomePage3.jpg");
+}
+
+#Img4 {
+    background-image: url("../assets/images/HomePage4.jpg");
+    height: 30%;
+}
+
+#artistText {
+    letter-spacing: 0.22em;
+    /* font-size: 5em; */
+    font-family: 'Times New Roman';
+    padding: inherit;
+}
+
+#problemSolverText {
+    font-family: oxygen;
+    letter-spacing: 0.2em;
+    /* font-size: 4.8em; */
+    padding: inherit;
+}
+
+#hustlerText {
+    letter-spacing: 0.07em;
+    font-family: oxygen;
+    /* font-size: 5em; */
+    padding: inherit;
+}
+
+
+/* Work Text Screen Adjust */
+
+
+/* For main Heading on the Screen */
+
+@media screen and (max-width: 1204px) {
+    #workText {
+        padding: inherit;
+        letter-spacing: 0.3em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #workText {
+        padding: inherit;
+        letter-spacing: 0.3em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+
+.contentArea {
+    background-color: #434e52;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: whitesmoke;
+    opacity: 95%;
+    letter-spacing: 0.2em;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.footerContent {
+    background-color: whitesmoke;
+    color: whitesmoke;
+    letter-spacing: 0.2em;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+}
+
+mat-grid-tile {
+    background-color: #39403A;
+    width: inherit;
+    height: inherit;
+}
+
+.transparentHeading {
+    padding-left: 5%;
+    padding-right: 5%;
+    opacity: 70%;
+    background-color: #5b8c85;
+    font-family: heebo, 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    color: white;
+}
+
+button {
+    width: inherit;
+    opacity: 90%;
+    letter-spacing: 0.4em;
+}
+
+#footerButtons {
+    opacity: 90%;
+    padding: 5em;
+}
+
+#projectDescription {
+    text-align: center;
+    font-weight: lighter;
+}
