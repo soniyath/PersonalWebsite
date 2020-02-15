@@ -46,7 +46,7 @@
 }
 
 .menuBar:hover {
-    transition-duration: 1500ms;
+    transition-duration: 150ms;
     background: #5b8c85;
 }
 
