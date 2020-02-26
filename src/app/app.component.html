@@ -1,129 +1,33 @@
-<!--Menu bar for all the page with links-->
-<!-- Div Image1 -- Heading and MediApp Content Area -->
-<div class="divImg" id="Img1" matRipple [matRippleUnbounded]="unbounded" [matRippleRadius]="100">
-    <!--Mat toolbar is Angular Material toolbar allows us to have a fancy toolbar with flex 1 1 distance items-->
-    <mat-toolbar class="menuBar">
-        <!--Menu items with links-->
+<mat-toolbar class="menuBar">
+    <!--Menu items with links-->
 
-        <!-- Jump to Works link -->
-        <span class="menuItems" matRipple [matRippleUnbounded]="unbounded">       
-        <a href="#workText" style="color: ghostwhite; text-decoration: none;">
-        WORKS</a>
-        </span>
+    <!-- Jump to Works link -->
+    <span class="menuItems" matRipple [matRippleUnbounded]="unbounded">       
+    <a routerLink="/work" style="color: ghostwhite; text-decoration: none;">
+    WORKS</a>
+    </span>
 
-        <span class="menuItems" matRipple [matRippleUnbounded]="unbounded">ABOUT</span>
+    <span class="menuItems" matRipple [matRippleUnbounded]="unbounded">
+    <a routerLink="/about" style=" color:ghostwhite; text-decoration: none;">    
+    ABOUT</a>
+    </span>
 
-        <!-- github link -->
-        <span class="menuItems" matRipple [matRippleUnbounded]="unbounded">
-            <a href="https://github.com/soniyath" target="_blank" style="color: ghostwhite; text-decoration: none;">
-                GITHUB
-            </a>
-        </span>
+    <!-- github link -->
+    <span class="menuItems" matRipple [matRippleUnbounded]="unbounded">
+        <a href="https://github.com/soniyath" target="_blank" style="color: ghostwhite; text-decoration: none;">
+            GITHUB
+        </a>
+    </span>
 
-        <!-- contact me box -->
-        <span class="menuItems" matRipple [matRippleUnbounded]="unbounded">
-        <a href="mailto:yatharth.soni14@gmail.com" style="color: ghostwhite; text-decoration: none;">
-            SAY HI!
-        </a></span>
+    <!-- contact me box -->
+    <span class="menuItems" matRipple [matRippleUnbounded]="unbounded">
+    <a href="mailto:yatharth.soni14@gmail.com" style="color: ghostwhite; text-decoration: none;">
+        SAY HI!
+    </a></span>
 
-    </mat-toolbar>
-
-    <!--Heading Division for Main Heading texts-->
-    <div class="headingDiv">
-        <!--Main Heading texts with their own CSS-->
-        <h1 class="headingText" id="hustlerText"> HUSTLER.</h1>
-        <h1 class="headingText" id="problemSolverText">SOLVER;</h1>
-        <h1 class="headingText" id="artistText">ARTIST!</h1>
-        <h2 class="transparentHeading">Every great story on the planet happened when someone decided not to give up, but keep going <br> NO MATTER WHAT! <br> - Spryte Loriano.</h2>
-    </div>
-
-    <!--ContentArea: black semi-transparent background with main content in it-->
-    <div class="contentArea">
-        <!--To do: Finish the Heading cleaning part of the content-->
-        <h2 class="headingText" id="workText">WORKS</h2>
-    </div>
-
-    <!--Transparent heading : Medical Registration Application-->
-    <!--p tag : center Aligns the area and inline styling for the U tag-->
-    <p><u class="transparentHeading" id="medicalTitle">Medical Registration Application</u></p>
-    <!--Medical REgistration App Content Area-->
-    <div class="contentArea">
-        <!-- Centers the content -->
-        <p>
-            <!-- 1st Video for the works -->
-            <br>
-            <br>
-            <!-- Youtube link to the video -->
-            <iframe width=70% height=auto src="https://www.youtube-nocookie.com/embed/kj1hLFSORTQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <br>
-            <b id="projectDescription"> A Web Application with user friendly-UI fulfilling the purpose of registering, managing and ultimately storing the patient data into the hospital database for future usage by providing ease of access to the Hospital Team.
-    </b> <br>
-            <br>
-            <!-- This will allow us to open the first component -->
-            <medi-app-pop-up>loading</medi-app-pop-up>
-            <br>
-            <br>
-
-        </p>
-        <!-- content Area Closure -->
-    </div>
-    <!-- divImg1 Closure  -->
-</div>
-<!--Div Img 2 : Time and Space Complexity content And Website Content within-->
-<div class="divImg" id="Img2" matRipple [matRippleUnbounded]="unbounded" [matRippleRadius]="100">
-    <!-- SpaceAndtime Heading -->
-    <p><u class="transparentHeading" id="medicalTitle">Space and Time Complexity Calculator</u></p>
-
-    <!-- SpaceAndTime Content Area -->
-    <div class="contentArea">
-        <p>
-            <br>
-            <br>
-            <iframe width=70% height="auto" src="https://www.youtube-nocookie.com/embed/kj1hLFSORTQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <br>
-            <b id="projectDescription">
-                A C program to compare 3 sorting algorithms including Bubble Sort, Insertion Sort, and Quick Sort. This assignment will help you understand how the sorting algorithms work, the efficiency of the sorting algorithms when having different sizes of input,
-                and the comparison of them in terms of time complexity.
-            </b>
-            <br>
-            <br>
-            <app-pop-up-time-and-space>loading</app-pop-up-time-and-space>
-            <br>
-            <br>
-        </p>
-    </div>
-
-    <!-- Heading #3 Website -->
-    <p>
-        <u class="transparentHeading" style="font-size: 2em; color: whitesmoke;">3. Website</u>
-    </p>
-
-    <!-- Website Content..including the image -->
-    <div class="contentArea">
-        <p>
-            <br>
-            <br>
-            <!--Image for Website-->
-            <img src="assets/images/HomePageMain.jpg" frameborder="0" width=70% height="auto" allowfullscreen>
-            <br>
-            <b id="projectDescription"> This Website is one of the biggest project I am working on after gettting my Diploma as a Software Engineer. I wanted to work on something enormous by myself for some time after I finish my college and this is the result of it. Making myself
-                aware of whole Development Cycle and letting myself and my resume assure that I am flexible working in any part of the Website Development Life Cycle.
-            </b>
-            <br>
-            <br>
-            <app-pop-up-website>loading</app-pop-up-website>
-            <br>
-            <br>
-        </p>
-        <!-- Website Content Finishes -->
-    </div>
-    <!--Middle Image finish-->
-</div>
-<!-- Last Division image Starts -->
-<div class="divImg" id="Img3" matRipple [matRippleUnbounded]="unbounded" [matRippleRadius]="100">
-    <!-- No Content For last Image -->
-
-</div>
+</mat-toolbar>
+<router-outlet>
+</router-outlet>
 <footer class="footerContent">
     <!-- Last Grid Column -->
     <mat-grid-list cols="2" rows="2" rowHeight="100%" columnHeight="10%">

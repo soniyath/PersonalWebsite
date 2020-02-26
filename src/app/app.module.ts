@@ -18,7 +18,8 @@ import { PopUpTimeAndSpaceComponent } from './pop-up-time-and-space/pop-up-time-
 import { PopUpTimeAndSpaceComponentDisplay } from './pop-up-time-and-space/pop-up-time-and-space.component';
 import { PopUpWebsiteComponent } from './pop-up-website/pop-up-website.component';
 import { PopUpWebsiteDisplay } from './pop-up-website/pop-up-website.component';
-
+import {AboutComponent} from './about/about.component';
+import { WorkComponent } from './work/work.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,9 @@ import { PopUpWebsiteDisplay } from './pop-up-website/pop-up-website.component';
     PopUpTimeAndSpaceComponent,
     PopUpTimeAndSpaceComponentDisplay,
     PopUpWebsiteComponent,
-    PopUpWebsiteDisplay
+    PopUpWebsiteDisplay,
+    AboutComponent,
+    WorkComponent
   ],
   imports: [
     BrowserModule,
