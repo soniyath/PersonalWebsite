@@ -4,7 +4,7 @@ import { AppComponent } from './app.component';
 import { WorkComponent } from './work';  
 
 const routes: Routes = [
-  {path: '', component : AppComponent},
+  {path: '', component : WorkComponent},
   {path: 'about', component : AboutComponent},
   {path: 'work', component : WorkComponent},
 
