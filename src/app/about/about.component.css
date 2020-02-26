@@ -22,9 +22,22 @@
 
 /* All images Styling for shadows */
 
-img {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
+@media screen and (max-width: 1290px) {
+    img {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        width: 60%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    img {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        width: 50%;
+        height: auto;
+    }
 }
 
 
@@ -76,7 +89,7 @@ p {
 
 @media screen and (min-width: 1204px) {
     .headingText {
-        color: whitesmoke;
+        color: #3c415e;
         text-align: center;
         font-size: 100px;
     }
