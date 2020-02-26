@@ -14,13 +14,17 @@ import {MatRippleModule} from '@angular/material/core';
 import {MatDialogModule} from '@angular/material/dialog';
 import { MediAppWorkComponent } from './medi-app-work/medi-app-work.component';
 import { PopUpMediAppComponent } from './pop-up-medi-app/pop-up-medi-app.component';
+import { PopUpTimeAndSpaceComponent } from './pop-up-time-and-space/pop-up-time-and-space.component';
+import { PopUpTimeAndSpaceComponentDisplay } from './pop-up-time-and-space/pop-up-time-and-space.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MediAppWorkComponent,
-    PopUpMediAppComponent
+    PopUpMediAppComponent,
+    PopUpTimeAndSpaceComponent,
+    PopUpTimeAndSpaceComponentDisplay
   ],
   imports: [
     BrowserModule,
@@ -35,8 +39,10 @@ import { PopUpMediAppComponent } from './pop-up-medi-app/pop-up-medi-app.compone
     MatRippleModule,
     MatDialogModule
   ],
-  entryComponents: [PopUpMediAppComponent],
-  exports: [PopUpMediAppComponent],
+  entryComponents: [PopUpMediAppComponent,
+  PopUpTimeAndSpaceComponentDisplay],
+  exports: [PopUpMediAppComponent,
+  PopUpTimeAndSpaceComponentDisplay],
   providers: [],
   bootstrap: [AppComponent]
 })

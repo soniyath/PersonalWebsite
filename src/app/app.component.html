@@ -1,4 +1,5 @@
 <!--Menu bar for all the page with links-->
+<!-- Div Image1 -- Heading and MediApp Content Area -->
 <div class="divImg" id="Img1" matRipple [matRippleUnbounded]="unbounded" [matRippleRadius]="100">
     <!--Mat toolbar is Angular Material toolbar allows us to have a fancy toolbar with flex 1 1 distance items-->
     <mat-toolbar class="menuBar">
@@ -28,6 +29,7 @@
     <!--Transparent heading : Medical Registration Application-->
     <!--p tag : center Aligns the area and inline styling for the U tag-->
     <p><u class="transparentHeading" id="medicalTitle">Medical Registration Application</u></p>
+    <!--Medical REgistration App Content Area-->
     <div class="contentArea">
         <!-- Centers the content -->
         <p>
@@ -50,7 +52,7 @@
     </div>
     <!-- divImg1 Closure  -->
 </div>
-<!--Div Img 2 : Work #2 Area begins-->
+<!--Div Img 2 : Time and Space Complexity content And Website Content within-->
 <div class="divImg" id="Img2" matRipple [matRippleUnbounded]="unbounded" [matRippleRadius]="100">
     <!-- SpaceAndtime Heading -->
     <p><u class="transparentHeading" id="medicalTitle">Space and Time Complexity Calculator</u></p>
@@ -68,7 +70,7 @@
             </b>
             <br>
             <br>
-            <button mat-raised-button>LEARN MORE</button>
+            <app-pop-up-time-and-space></app-pop-up-time-and-space>
             <br>
             <br>
         </p>
