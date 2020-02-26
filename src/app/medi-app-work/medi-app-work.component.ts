@@ -1,6 +1,7 @@
 import * as core from '@angular/core';
 import {MatDialog} from '@angular/material/dialog';
 import { PopUpMediAppComponent } from '../pop-up-medi-app/pop-up-medi-app.component';
+import { NgIf } from '@angular/common';
 
 @core.Component({
   selector: 'medi-app-pop-up',
@@ -14,7 +15,8 @@ export class MediAppWorkComponent {
     const dialogRef = this.dialog.open(PopUpMediAppComponent);
 
     dialogRef.afterClosed().subscribe(result => {
-      console.log(`Dialog result: ${result}`);
+     console.log(`Dialog result: ${result}`);
+      
     });
   }
 }
