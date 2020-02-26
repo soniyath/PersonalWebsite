@@ -14,7 +14,9 @@
 }
 
 #Img2 {
-    background-image: url("src/assets/Images2/About6.jpg");
+    background-image: url("src/assets/Images2/About6.JPG");
+    width: 100%;
+    height: auto;
 }
 
 
