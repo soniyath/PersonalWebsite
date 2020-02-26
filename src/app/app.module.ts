@@ -13,12 +13,14 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatRippleModule} from '@angular/material/core';
 import {MatDialogModule} from '@angular/material/dialog';
 import { MediAppWorkComponent } from './medi-app-work/medi-app-work.component';
+import { PopUpMediAppComponent } from './pop-up-medi-app/pop-up-medi-app.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MediAppWorkComponent
+    MediAppWorkComponent,
+    PopUpMediAppComponent
   ],
   imports: [
     BrowserModule,
@@ -33,6 +35,8 @@ import { MediAppWorkComponent } from './medi-app-work/medi-app-work.component';
     MatRippleModule,
     MatDialogModule
   ],
+  entryComponents: [PopUpMediAppComponent],
+  exports: [PopUpMediAppComponent],
   providers: [],
   bootstrap: [AppComponent]
 })
