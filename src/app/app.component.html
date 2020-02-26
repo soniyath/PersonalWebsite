@@ -4,11 +4,28 @@
     <!--Mat toolbar is Angular Material toolbar allows us to have a fancy toolbar with flex 1 1 distance items-->
     <mat-toolbar class="menuBar">
         <!--Menu items with links-->
-        <span class="menuItems" matRipple [matRippleUnbounded]="unbounded">WORKS</span>
+
+        <!-- Jump to Works link -->
+        <span class="menuItems" matRipple [matRippleUnbounded]="unbounded">       
+        <a href="#workText" style="color: ghostwhite; text-decoration: none;">
+        WORKS</a>
+        </span>
+
         <span class="menuItems" matRipple [matRippleUnbounded]="unbounded">ABOUT</span>
-        <span class="menuItems" matRipple [matRippleUnbounded]="unbounded">BLOGS</span>
-        <span class="menuItems" matRipple [matRippleUnbounded]="unbounded">EXTRAAS</span>
-        <span class="menuItems" matRipple [matRippleUnbounded]="unbounded">SAY HI!</span>
+
+        <!-- github link -->
+        <span class="menuItems" matRipple [matRippleUnbounded]="unbounded">
+            <a href="https://github.com/soniyath" target="_blank" style="color: ghostwhite; text-decoration: none;">
+                GITHUB
+            </a>
+        </span>
+
+        <!-- contact me box -->
+        <span class="menuItems" matRipple [matRippleUnbounded]="unbounded">
+        <a href="mailto:yatharth.soni14@gmail.com" style="color: ghostwhite; text-decoration: none;">
+            SAY HI!
+        </a></span>
+
     </mat-toolbar>
 
     <!--Heading Division for Main Heading texts-->
@@ -111,8 +128,14 @@
     <!-- Last Grid Column -->
     <mat-grid-list cols="2" rows="2" rowHeight="100%" columnHeight="10%">
         <mat-grid-tile matRipple [matRippleUnbounded]="unbounded">ABOUT</mat-grid-tile>
-        <mat-grid-tile matRipple [matRippleUnbounded]="unbounded">BLOGS</mat-grid-tile>
-        <mat-grid-tile matRipple [matRippleUnbounded]="unbounded">SUGGEST</mat-grid-tile>
-        <mat-grid-tile matRipple [matRippleUnbounded]="unbounded">SAY HI!</mat-grid-tile>
+        <a href="https://github.com/soniyath" target="_blank" style="color: ghostwhite;">
+            <mat-grid-tile matRipple [matRippleUnbounded]="unbounded">GITHUB</mat-grid-tile>
+        </a>
+        <a href="https://www.linkedin.com/in/yatharth-soni/" target="_blank" style="color: ghostwhite;">
+            <mat-grid-tile matRipple [matRippleUnbounded]="unbounded">LINKED IN</mat-grid-tile>
+        </a>
+        <a href="mailto:yatharth.soni14@gmail.com" style="color: ghostwhite;">
+            <mat-grid-tile matRipple [matRippleUnbounded]="unbounded">SAY HI!</mat-grid-tile>
+        </a>
     </mat-grid-list>
 </footer>
