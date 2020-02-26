@@ -14,7 +14,7 @@
             <br>
             <br>
             <!-- Photo -->
-            <img src="assets/Images2/About1.jpg" frameborder="0" width=55% height="auto" allowfullscreen>
+            <img src="assets/Images2/About1.jpg" frameborder="0" width=55% height="auto" allowfullscreen alt="Niagara Falls Photo of mine">
             <br>
             <b id="aboutDescription">Hi my name's Yatharth Soni. <br>
             I'm am a Problem Solver, an Artist and a Hustler. <br>
@@ -35,60 +35,80 @@
         <br>
         <div class="container">
             <div class="row">
-                <!-- Team Member 1 -->
+
+                <!-- Math Tutor-->
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-0 shadow">
+                        <img src="assets/ExtraCurricular/MathTutor.jpg" width="75%" height="auto" class="card-img-top" alt="Math Tutor Photo">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-0">Peer Assisted Learning Leader - Computer Math Fundamentals</h5>
+                            <div class="card-text text-black-50">Sheridan College</div>
+                            <br>
+                            <div class="card-text text-black-50">
+                                <!-- Math Tutor Pop Up using button -->
+                                <app-math-tutor-pop-up></app-math-tutor-pop-up>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+
+                <!-- Pizza Chef -->
                 <div class="col-xl-3 col-md-6 mb-4">
                     <div class="card border-1 shadow">
-                        <img src="assets/ExtraCurricular/PizzaChef.jpeg" width="76%" height="auto" class="card-img-top" alt="...">
+                        <img src="assets/ExtraCurricular/PizzaChef.jpeg" width="76%" height="auto" class="card-img-top" alt="Pizza Chef photo">
                         <div class="card-body text-center">
                             <h5 class="card-title mb-0">Head Pizza Chef</h5>
                             <div class="card-text text-black-50">Gino's pizza</div>
                         </div>
-                    </div>
-                </div>
-                <br>
-                <br>
-                <br>
-                <!-- Team Member 2 -->
-                <div class="col-xl-3 col-md-6 mb-4">
-                    <div class="card border-0 shadow">
-                        <img src="assets/ExtraCurricular/TheOneThing.JPG" width="76%" height="auto" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h5 class="card-title mb-0">The One Thing Member</h5>
+                        <br>
+                        <div class="card-text text-black-50">
+                            <button mat-raised-button (click)="openDialog()">LEARN MORE</button>
                         </div>
                     </div>
                 </div>
                 <br>
                 <br>
                 <br>
-                <!-- Team Member 3 -->
+                <!-- Meditator -->
                 <div class="col-xl-3 col-md-6 mb-4">
                     <div class="card border-0 shadow">
-                        <img src="assets/ExtraCurricular/MathTutor.jpg" width="75%" height="auto" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h5 class="card-title mb-0">Peer Assisted Learning Leader</h5>
-                            <div class="card-text text-black-50">Sheridan College</div>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <br>
-                <br>
-                <!-- Team Member 4 -->
-                <div class="col-xl-3 col-md-6 mb-4">
-                    <div class="card border-0 shadow">
-                        <img src="assets/ExtraCurricular/Meditator.jpg" width="75%" height="auto" class="card-img-top" alt="...">
+                        <img src="assets/ExtraCurricular/Meditator.jpg" width="75%" height="auto" class="card-img-top" alt="Meditator Image">
                         <div class="card-body text-center">
                             <h5 class="card-title mb-0">Meditator</h5>
                             <div class="card-text text-black-50">The Art of Living Foundation</div>
                         </div>
+                        <br>
+                        <div class="card-text text-black-50">
+                            <button mat-raised-button (click)="openDialog()">LEARN MORE</button>
+                        </div>
                     </div>
                 </div>
+                <br>
+                <br>
+                <!-- The One Thing Member -->
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-0 shadow">
+                        <img src="assets/ExtraCurricular/TheOneThing.JPG" width="76%" height="auto" class="card-img-top" alt="The One Thing Member Photo">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-0">The One Thing Member</h5>
+                        </div>
+                        <div class="card-text text-black-50">
+                            <button mat-raised-button (click)="openDialog()">LEARN MORE</button>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+
             </div>
             <br>
             <br>
             <br>
             <!-- /.row -->
-
         </div>
         <!-- /.container -->
     </div>

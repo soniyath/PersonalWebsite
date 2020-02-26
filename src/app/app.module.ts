@@ -20,6 +20,8 @@ import { PopUpWebsiteComponent } from './pop-up-website/pop-up-website.component
 import { PopUpWebsiteDisplay } from './pop-up-website/pop-up-website.component';
 import {AboutComponent} from './about/about.component';
 import { WorkComponent } from './work/work.component';
+import { MathTutorPopUpComponent } from './math-tutor-pop-up/math-tutor-pop-up.component';
+import {PopUpMathTutorDisplay} from './math-tutor-pop-up/math-tutor-pop-up.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { WorkComponent } from './work/work.component';
     PopUpWebsiteComponent,
     PopUpWebsiteDisplay,
     AboutComponent,
-    WorkComponent
+    WorkComponent,
+    MathTutorPopUpComponent,
+    PopUpMathTutorDisplay
   ],
   imports: [
     BrowserModule,
@@ -46,12 +50,18 @@ import { WorkComponent } from './work/work.component';
     MatRippleModule,
     MatDialogModule
   ],
-  entryComponents: [PopUpMediAppComponent,
-  PopUpTimeAndSpaceComponentDisplay,
-  PopUpWebsiteDisplay],
-  exports: [PopUpMediAppComponent,
-  PopUpTimeAndSpaceComponentDisplay,
-  PopUpWebsiteDisplay],
+  entryComponents: [
+    PopUpMediAppComponent,
+    PopUpTimeAndSpaceComponentDisplay,
+    PopUpWebsiteDisplay,
+    PopUpMathTutorDisplay
+  ],
+  exports: [
+    PopUpMediAppComponent,
+    PopUpTimeAndSpaceComponentDisplay,
+    PopUpWebsiteDisplay, 
+    PopUpMathTutorDisplay
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
