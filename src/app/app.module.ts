@@ -24,6 +24,9 @@ import { MathTutorPopUpComponent } from './math-tutor-pop-up/math-tutor-pop-up.c
 import {PopUpMathTutorDisplay} from './math-tutor-pop-up/math-tutor-pop-up.component';
 import { PizzaChefPopUpComponent } from './pizza-chef-pop-up/pizza-chef-pop-up.component';
 import { PopUpPizzaChefDisplay } from './pizza-chef-pop-up/pizza-chef-pop-up.component';
+import { MeditatorPopUpComponent } from './meditator-pop-up/meditator-pop-up.component';
+import { PopUpMeditatorDisplay } from './meditator-pop-up/meditator-pop-up.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +41,9 @@ import { PopUpPizzaChefDisplay } from './pizza-chef-pop-up/pizza-chef-pop-up.com
     MathTutorPopUpComponent,
     PopUpMathTutorDisplay,
     PizzaChefPopUpComponent,
-    PopUpPizzaChefDisplay
+    PopUpPizzaChefDisplay,
+    MeditatorPopUpComponent,
+    PopUpMeditatorDisplay
   ],
   imports: [
     BrowserModule,
@@ -58,14 +63,16 @@ import { PopUpPizzaChefDisplay } from './pizza-chef-pop-up/pizza-chef-pop-up.com
     PopUpTimeAndSpaceComponentDisplay,
     PopUpWebsiteDisplay,
     PopUpMathTutorDisplay,
-    PopUpPizzaChefDisplay
+    PopUpPizzaChefDisplay,
+    PopUpMeditatorDisplay
   ],
   exports: [
     PopUpMediAppComponent,
     PopUpTimeAndSpaceComponentDisplay,
     PopUpWebsiteDisplay, 
     PopUpMathTutorDisplay,
-    PopUpPizzaChefDisplay
+    PopUpPizzaChefDisplay,
+    PopUpMeditatorDisplay
   ],
   providers: [],
   bootstrap: [AppComponent]
