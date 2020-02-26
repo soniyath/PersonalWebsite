@@ -16,6 +16,8 @@ import { MediAppWorkComponent } from './medi-app-work/medi-app-work.component';
 import { PopUpMediAppComponent } from './pop-up-medi-app/pop-up-medi-app.component';
 import { PopUpTimeAndSpaceComponent } from './pop-up-time-and-space/pop-up-time-and-space.component';
 import { PopUpTimeAndSpaceComponentDisplay } from './pop-up-time-and-space/pop-up-time-and-space.component';
+import { PopUpWebsiteComponent } from './pop-up-website/pop-up-website.component';
+import { PopUpWebsiteDisplay } from './pop-up-website/pop-up-website.component';
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import { PopUpTimeAndSpaceComponentDisplay } from './pop-up-time-and-space/pop-u
     MediAppWorkComponent,
     PopUpMediAppComponent,
     PopUpTimeAndSpaceComponent,
-    PopUpTimeAndSpaceComponentDisplay
+    PopUpTimeAndSpaceComponentDisplay,
+    PopUpWebsiteComponent,
+    PopUpWebsiteDisplay
   ],
   imports: [
     BrowserModule,
@@ -40,9 +44,11 @@ import { PopUpTimeAndSpaceComponentDisplay } from './pop-up-time-and-space/pop-u
     MatDialogModule
   ],
   entryComponents: [PopUpMediAppComponent,
-  PopUpTimeAndSpaceComponentDisplay],
+  PopUpTimeAndSpaceComponentDisplay,
+  PopUpWebsiteDisplay],
   exports: [PopUpMediAppComponent,
-  PopUpTimeAndSpaceComponentDisplay],
+  PopUpTimeAndSpaceComponentDisplay,
+  PopUpWebsiteDisplay],
   providers: [],
   bootstrap: [AppComponent]
 })
