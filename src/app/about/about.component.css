@@ -1,0 +1,105 @@
+/* Background Parallax Image Section */
+
+.divImg {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: max-content;
+}
+
+#Img1 {
+    background-image: url("src/assets/Images2/About2.jpeg");
+}
+
+#Img2 {
+    background-image: url("src/assets/Images2/About6.jpg");
+}
+
+
+/* Content Area inside the Image */
+
+.contentArea {
+    background-color: #434e52;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: whitesmoke;
+    opacity: 95%;
+    letter-spacing: 0.2em;
+}
+
+.transparentHeading {
+    padding-left: 5%;
+    padding-right: 5%;
+    opacity: 70%;
+    background-color: #5b8c85;
+    font-family: heebo, 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    color: white;
+}
+
+#projectDescription {
+    text-align: center;
+    font-weight: lighter;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.headingDiv {
+    align-self: center;
+    text-align: justify;
+    padding-left: 15%;
+    padding-right: 15%;
+    max-height: max-content;
+    text-size-adjust: inherit;
+}
+
+
+/* For main Heading on the Screen */
+
+@media screen and (min-width: 1204px) {
+    .headingText {
+        color: whitesmoke;
+        text-align: center;
+        font-size: 100px;
+    }
+    .headingDiv {
+        align-self: center;
+        text-align: justify;
+        padding-left: 15%;
+        padding-right: 15%;
+        max-height: max-content;
+        text-size-adjust: inherit;
+    }
+}
+
+@media screen and (max-width: 1204px) {
+    .headingText {
+        color: #3c415e;
+        text-align: justify;
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .headingText {
+        color: #3c415e;
+        text-align: center;
+        font-size: 40px;
+    }
+}
+
+
+/* Project 1 Heading text : ID */
+
+#medicalTitle {
+    font-size: 2em;
+    color: whitesmoke;
+}

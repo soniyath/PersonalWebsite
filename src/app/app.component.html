@@ -24,14 +24,19 @@
     <a href="mailto:yatharth.soni14@gmail.com" style="color: ghostwhite; text-decoration: none;">
         SAY HI!
     </a></span>
-
 </mat-toolbar>
+
+<!-- Routing Pages -->
 <router-outlet>
 </router-outlet>
+
+
 <footer class="footerContent">
     <!-- Last Grid Column -->
     <mat-grid-list cols="2" rows="2" rowHeight="100%" columnHeight="10%">
-        <mat-grid-tile matRipple [matRippleUnbounded]="unbounded">ABOUT</mat-grid-tile>
+        <a routerLink="about" style="text-decoration: none; color: ghostwhite">
+            <mat-grid-tile matRipple [matRippleUnbounded]="unbounded">ABOUT</mat-grid-tile>
+        </a>
         <a href="https://github.com/soniyath" target="_blank" style="color: ghostwhite;">
             <mat-grid-tile matRipple [matRippleUnbounded]="unbounded">GITHUB</mat-grid-tile>
         </a>
